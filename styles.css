@@ -1,1 +1,67 @@
 /* your code here */
+body{
+	background-color:lightgreen;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+section{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	/* background-color:white; */
+}
+.photo-container{
+	background-color:yellowgreen;
+	border-radius:20px;
+}
+
+.controls{
+	display:flex;
+	justify-content:space-between;
+	color:white;
+	padding:10px;
+	
+}
+.photo-album > ul{
+	display:flex;
+	list-style: none;
+	justify-content:space-around;
+	
+	
+}
+.variant>ul{
+	display:flex;
+	list-style: none;
+	justify-content:space-around;
+}
+.photo-album{
+	padding:5px;
+	background-color:white;
+	border-radius:20px;
+}
+.photo-album > ul > li > img{
+	border:1px solid black;
+	border-radius:10px;
+	width:30px;
+	
+}
+.product__photo{
+	width:200px;
+	position:absolute;
+	 bottom: 40px;
+    transform: translateX(-80%);
+	
+}
+.photo-main>img{
+	width:80%;
+	
+}
+.product__info{
+	background-color:white;
+	border-radius:20px;
+	width:400px;
+	text-align:center
+	
+	
+}
