@@ -48,9 +48,8 @@ section{
 }
 .product__photo{
 	width:200px;
-	position:absolute;
-	 bottom: 40px;
-    transform: translateX(-80%);
+	
+	 
 	
 }
 .photo-main>img{
